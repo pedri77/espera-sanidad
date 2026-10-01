@@ -1,0 +1,1480 @@
+{
+ "meta": {
+  "source": "Ministerio de Sanidad — SISLE-SNS dic2025 (rectificado); INE Censo anual 2025 (tabla 67988)",
+  "period": "31/12/2025",
+  "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/listaEspera.htm",
+  "unit": "pacientes; pacientes/1.000 hab; días; %",
+  "comparabilidad": "limitada: criterios de cómputo dependen de cada CCAA (RD 605/2003); la tasa oficial usa población de tarjeta sanitaria, el campo *_ine es DERIVADO con población INE",
+  "provisional": false
+ },
+ "ccaa": {
+  "ANDALUCÍA": {
+   "pacientes_en_espera": 199950.0,
+   "tasa_por_1000_hab_sile": 23.51,
+   "pacientes_mas_6_meses": 64302.0,
+   "pct_mas_6_meses": 32.2,
+   "tiempo_medio_dias": 173.0,
+   "pacientes_por_1000_hab_ine": 23.04,
+   "poblacion_ine_2025": 8676713.0
+  },
+  "ARAGON": {
+   "pacientes_en_espera": 25783.0,
+   "tasa_por_1000_hab_sile": 18.71,
+   "pacientes_mas_6_meses": 5593.0,
+   "pct_mas_6_meses": 21.7,
+   "tiempo_medio_dias": 132.0,
+   "pacientes_por_1000_hab_ine": 18.89,
+   "poblacion_ine_2025": 1364621.0
+  },
+  "PDO DE ASTURIAS": {
+   "pacientes_en_espera": 22402.0,
+   "tasa_por_1000_hab_sile": 22.12,
+   "pacientes_mas_6_meses": 2336.0,
+   "pct_mas_6_meses": 10.4,
+   "tiempo_medio_dias": 91.0,
+   "pacientes_por_1000_hab_ine": 22.07,
+   "poblacion_ine_2025": 1015128.0
+  },
+  "BALEARES": {
+   "pacientes_en_espera": 17075.0,
+   "tasa_por_1000_hab_sile": 13.62,
+   "pacientes_mas_6_meses": 3832.0,
+   "pct_mas_6_meses": 22.4,
+   "tiempo_medio_dias": 105.0,
+   "pacientes_por_1000_hab_ine": 13.66,
+   "poblacion_ine_2025": 1249844.0
+  },
+  "CANARIAS": {
+   "pacientes_en_espera": 32131.0,
+   "tasa_por_1000_hab_sile": 14.59,
+   "pacientes_mas_6_meses": 5575.0,
+   "pct_mas_6_meses": 17.4,
+   "tiempo_medio_dias": 106.0,
+   "pacientes_por_1000_hab_ine": 14.22,
+   "poblacion_ine_2025": 2258866.0
+  },
+  "CANTABRIA": {
+   "pacientes_en_espera": 14490.0,
+   "tasa_por_1000_hab_sile": 24.92,
+   "pacientes_mas_6_meses": 3799.0,
+   "pct_mas_6_meses": 26.2,
+   "tiempo_medio_dias": 137.0,
+   "pacientes_por_1000_hab_ine": 24.41,
+   "poblacion_ine_2025": 593623.0
+  },
+  "CASTILLA Y LEON": {
+   "pacientes_en_espera": 24786.0,
+   "tasa_por_1000_hab_sile": 10.57,
+   "pacientes_mas_6_meses": 3420.0,
+   "pct_mas_6_meses": 13.8,
+   "tiempo_medio_dias": 87.0,
+   "pacientes_por_1000_hab_ine": 10.32,
+   "poblacion_ine_2025": 2401221.0
+  },
+  "CASTILLA-LA MANCHA": {
+   "pacientes_en_espera": 36491.0,
+   "tasa_por_1000_hab_sile": 18.17,
+   "pacientes_mas_6_meses": 6017.0,
+   "pct_mas_6_meses": 16.5,
+   "tiempo_medio_dias": 117.0,
+   "pacientes_por_1000_hab_ine": 17.16,
+   "poblacion_ine_2025": 2126378.0
+  },
+  "CATALUÑA": {
+   "pacientes_en_espera": 197768.0,
+   "tasa_por_1000_hab_sile": 24.84,
+   "pacientes_mas_6_meses": 63228.0,
+   "pct_mas_6_meses": 32.0,
+   "tiempo_medio_dias": 142.0,
+   "pacientes_por_1000_hab_ine": 24.34,
+   "poblacion_ine_2025": 8124126.0
+  },
+  "COMUNIDAD VALENCIANA": {
+   "pacientes_en_espera": 51600.0,
+   "tasa_por_1000_hab_sile": 9.91,
+   "pacientes_mas_6_meses": 8309.0,
+   "pct_mas_6_meses": 16.1,
+   "tiempo_medio_dias": 88.0,
+   "pacientes_por_1000_hab_ine": 9.51,
+   "poblacion_ine_2025": 5425182.0
+  },
+  "EXTREMADURA": {
+   "pacientes_en_espera": 22404.0,
+   "tasa_por_1000_hab_sile": 21.96,
+   "pacientes_mas_6_meses": 5178.0,
+   "pct_mas_6_meses": 23.1,
+   "tiempo_medio_dias": 135.0,
+   "pacientes_por_1000_hab_ine": 21.27,
+   "poblacion_ine_2025": 1053345.0
+  },
+  "GALICIA": {
+   "pacientes_en_espera": 49554.0,
+   "tasa_por_1000_hab_sile": 18.82,
+   "pacientes_mas_6_meses": 2810.0,
+   "pct_mas_6_meses": 5.7,
+   "tiempo_medio_dias": 73.0,
+   "pacientes_por_1000_hab_ine": 18.25,
+   "poblacion_ine_2025": 2714741.0
+  },
+  "MADRID": {
+   "pacientes_en_espera": 80525.0,
+   "tasa_por_1000_hab_sile": 11.23,
+   "pacientes_mas_6_meses": 657.0,
+   "pct_mas_6_meses": 0.8,
+   "tiempo_medio_dias": 50.0,
+   "pacientes_por_1000_hab_ine": 11.32,
+   "poblacion_ine_2025": 7113886.0
+  },
+  "MURCIA": {
+   "pacientes_en_espera": 34197.0,
+   "tasa_por_1000_hab_sile": 21.52,
+   "pacientes_mas_6_meses": 6612.0,
+   "pct_mas_6_meses": 19.3,
+   "tiempo_medio_dias": 103.0,
+   "pacientes_por_1000_hab_ine": 21.55,
+   "poblacion_ine_2025": 1586989.0
+  },
+  "C. FORAL DE NAVARRA": {
+   "pacientes_en_espera": 10861.0,
+   "tasa_por_1000_hab_sile": 16.08,
+   "pacientes_mas_6_meses": 1817.0,
+   "pct_mas_6_meses": 16.7,
+   "tiempo_medio_dias": 96.0,
+   "pacientes_por_1000_hab_ine": 15.88,
+   "poblacion_ine_2025": 683854.0
+  },
+  "PAÍS VASCO": {
+   "pacientes_en_espera": 24069.0,
+   "tasa_por_1000_hab_sile": 10.81,
+   "pacientes_mas_6_meses": 544.0,
+   "pct_mas_6_meses": 2.3,
+   "tiempo_medio_dias": 64.0,
+   "pacientes_por_1000_hab_ine": 10.73,
+   "poblacion_ine_2025": 2242343.0
+  },
+  "RIOJA": {
+   "pacientes_en_espera": 7822.0,
+   "tasa_por_1000_hab_sile": 23.8,
+   "pacientes_mas_6_meses": 504.0,
+   "pct_mas_6_meses": 6.4,
+   "tiempo_medio_dias": 78.0,
+   "pacientes_por_1000_hab_ine": 23.93,
+   "poblacion_ine_2025": 326803.0
+  },
+  "CEUTA": {
+   "pacientes_en_espera": 931.0,
+   "tasa_por_1000_hab_sile": 12.12,
+   "pacientes_mas_6_meses": 141.0,
+   "pct_mas_6_meses": 15.1,
+   "tiempo_medio_dias": 94.0,
+   "pacientes_por_1000_hab_ine": 11.14,
+   "poblacion_ine_2025": 83567.0
+  },
+  "MELILLA": {
+   "pacientes_en_espera": 901.0,
+   "tasa_por_1000_hab_sile": 12.73,
+   "pacientes_mas_6_meses": 74.0,
+   "pct_mas_6_meses": 8.2,
+   "tiempo_medio_dias": 82.0,
+   "pacientes_por_1000_hab_ine": 10.35,
+   "poblacion_ine_2025": 87067.0
+  }
+ },
+ "serie_tiempo_medio_dias": {
+  "ANDALUCÍA": [
+   {
+    "periodo": "dic2025",
+    "dias": 173.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 160.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 176.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 169.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 174.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 139.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 134.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 110.0
+   }
+  ],
+  "ARAGON": [
+   {
+    "periodo": "dic2025",
+    "dias": 132.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 131.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 144.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 139.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 146.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 126.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 128.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 151.0
+   }
+  ],
+  "PDO DE ASTURIAS": [
+   {
+    "periodo": "dic2025",
+    "dias": 91.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 79.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 90.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 83.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 99.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 84.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 94.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 86.0
+   }
+  ],
+  "BALEARES": [
+   {
+    "periodo": "dic2025",
+    "dias": 105.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 105.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 99.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 102.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 125.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 122.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 124.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 121.0
+   }
+  ],
+  "CANARIAS": [
+   {
+    "periodo": "dic2025",
+    "dias": 106.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 109.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 122.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 127.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 147.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 153.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 157.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 144.0
+   }
+  ],
+  "CANTABRIA": [
+   {
+    "periodo": "dic2025",
+    "dias": 137.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 128.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 151.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 139.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 173.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 142.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 154.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 132.0
+   }
+  ],
+  "CASTILLA Y LEON": [
+   {
+    "periodo": "dic2025",
+    "dias": 87.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 80.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 95.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 100.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 116.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 103.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 123.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 129.0
+   }
+  ],
+  "CASTILLA-LA MANCHA": [
+   {
+    "periodo": "dic2025",
+    "dias": 117.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 116.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 113.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 118.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 102.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 108.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 106.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 111.0
+   }
+  ],
+  "CATALUÑA": [
+   {
+    "periodo": "dic2025",
+    "dias": 142.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 148.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 145.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 137.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 138.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 131.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 154.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 151.0
+   }
+  ],
+  "COMUNIDAD VALENCIANA": [
+   {
+    "periodo": "dic2025",
+    "dias": 88.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 81.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 93.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 79.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 88.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 79.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 88.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 87.0
+   }
+  ],
+  "EXTREMADURA": [
+   {
+    "periodo": "dic2025",
+    "dias": 135.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 134.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 178.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 164.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 181.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 147.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 156.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 139.0
+   }
+  ],
+  "GALICIA": [
+   {
+    "periodo": "dic2025",
+    "dias": 73.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 69.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 67.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 71.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 67.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 66.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 75.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 75.0
+   }
+  ],
+  "MADRID": [
+   {
+    "periodo": "dic2025",
+    "dias": 50.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 49.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 48.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 47.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 51.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 45.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 63.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 65.0
+   }
+  ],
+  "MURCIA": [
+   {
+    "periodo": "dic2025",
+    "dias": 103.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 97.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 107.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 92.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 106.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 88.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 100.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 91.0
+   }
+  ],
+  "C. FORAL DE NAVARRA": [
+   {
+    "periodo": "dic2025",
+    "dias": 96.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 82.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 94.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 78.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 94.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 75.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 85.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 72.0
+   }
+  ],
+  "PAÍS VASCO": [
+   {
+    "periodo": "dic2025",
+    "dias": 64.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 61.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 59.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 61.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 63.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 68.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 73.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 64.0
+   }
+  ],
+  "RIOJA": [
+   {
+    "periodo": "dic2025",
+    "dias": 78.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 64.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 64.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 64.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 106.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 100.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 111.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 92.0
+   }
+  ],
+  "CEUTA": [
+   {
+    "periodo": "dic2025",
+    "dias": 94.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 86.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 83.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 84.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 124.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 116.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 82.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 104.0
+   }
+  ],
+  "MELILLA": [
+   {
+    "periodo": "dic2025",
+    "dias": 82.0
+   },
+   {
+    "periodo": "jun2025",
+    "dias": 89.0
+   },
+   {
+    "periodo": "dic2024",
+    "dias": 137.0
+   },
+   {
+    "periodo": "jun2024",
+    "dias": 118.0
+   },
+   {
+    "periodo": "dic2023",
+    "dias": 97.0
+   },
+   {
+    "periodo": "jun2023",
+    "dias": 86.0
+   },
+   {
+    "periodo": "dic2022",
+    "dias": 39.0
+   },
+   {
+    "periodo": "jun2022",
+    "dias": 39.0
+   }
+  ]
+ },
+ "serie_pacientes": {
+  "ANDALUCÍA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 199950.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 191034.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 194159.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 203979.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 205005.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 192561.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 171935.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 136613.0
+   }
+  ],
+  "ARAGON": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 25783.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 26039.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 28256.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 28121.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 30077.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 22822.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 25138.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 25340.0
+   }
+  ],
+  "PDO DE ASTURIAS": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 22402.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 20957.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 22131.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 23428.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 11280.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 10738.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 22956.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 22292.0
+   }
+  ],
+  "BALEARES": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 17075.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 15160.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 14095.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 12623.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 14584.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 13861.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 13757.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 14381.0
+   }
+  ],
+  "CANARIAS": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 32131.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 31879.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 32948.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 34125.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 33751.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 36395.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 34556.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 32918.0
+   }
+  ],
+  "CANTABRIA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 14490.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 14652.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 16925.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 16776.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 18505.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 16067.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 15314.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 13606.0
+   }
+  ],
+  "CASTILLA Y LEON": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 24786.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 25107.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 27525.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 30038.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 31856.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 34169.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 33967.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 39242.0
+   }
+  ],
+  "CASTILLA-LA MANCHA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 36491.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 35900.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 34694.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 36591.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 33175.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 33926.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 33275.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 32193.0
+   }
+  ],
+  "CATALUÑA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 197768.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 202114.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 196911.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 189472.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 183394.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 172027.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 173494.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 165552.0
+   }
+  ],
+  "COMUNIDAD VALENCIANA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 51600.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 50704.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 56247.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 54731.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 53384.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 62258.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 56780.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 54260.0
+   }
+  ],
+  "EXTREMADURA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 22404.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 21208.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 24467.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 24280.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 29294.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 23847.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 21786.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 21880.0
+   }
+  ],
+  "GALICIA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 49554.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 49223.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 48335.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 50264.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 45027.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 47046.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 46161.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 46553.0
+   }
+  ],
+  "MADRID": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 80525.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 70971.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 73436.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 70286.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 71693.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 64628.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 72626.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 71997.0
+   }
+  ],
+  "MURCIA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 34197.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 34315.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 35156.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 34247.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 34726.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 33062.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 30383.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 27635.0
+   }
+  ],
+  "C. FORAL DE NAVARRA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 10861.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 9818.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 10535.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 8581.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 8536.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 8240.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 8206.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 6641.0
+   }
+  ],
+  "PAÍS VASCO": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 24069.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 24251.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 22609.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 22655.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 21415.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 24333.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 23029.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 22277.0
+   }
+  ],
+  "RIOJA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 7822.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 7391.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 6442.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 6292.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 8505.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 8831.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 8738.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 7901.0
+   }
+  ],
+  "CEUTA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 931.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 1127.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 784.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 918.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 1012.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 1089.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 1020.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 845.0
+   }
+  ],
+  "MELILLA": [
+   {
+    "periodo": "dic2025",
+    "pacientes": 901.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes": 878.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes": 928.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes": 933.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes": 813.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes": 626.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes": 400.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes": 392.0
+   }
+  ]
+ },
+ "nota_rectificacion": "dic2025 rectificado el 24-09-2026 por corrección de los datos de Castilla-La Mancha: total nacional 853.509→853.740 pacientes; tiempo medio 121→122 días."
+}

@@ -1,0 +1,111 @@
+{
+ "meta": {
+  "source": "Ministerio de Sanidad — SISLE-SNS, lista de espera de consultas externas",
+  "period": "31/12/2025",
+  "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/listaEspera.htm",
+  "unit": "pacientes/1.000 hab; días; %",
+  "nota": "el informe no publica recuento de pacientes por CCAA en esta tabla, solo tasa por 1.000 hab; '% citas >60 días' incluye pacientes sin cita asignada >60 días (cambio de criterio documentado en el propio informe)"
+ },
+ "total_nacional": {
+  "tasa_por_1000_hab": 84.42,
+  "tiempo_medio_dias": 102.0,
+  "pct_citas_mas_60_dias": 61.5
+ },
+ "ccaa": {
+  "ANDALUCÍA": {
+   "tasa_por_1000_hab": 100.27,
+   "tiempo_medio_dias": 136.0,
+   "pct_citas_mas_60_dias": 57.1
+  },
+  "ARAGON": {
+   "tasa_por_1000_hab": 90.33,
+   "tiempo_medio_dias": 138.0,
+   "pct_citas_mas_60_dias": 73.0
+  },
+  "PDO DE ASTURIAS": {
+   "tasa_por_1000_hab": 115.03,
+   "tiempo_medio_dias": 103.0,
+   "pct_citas_mas_60_dias": 58.5
+  },
+  "BALEARES": {
+   "tasa_por_1000_hab": 72.3,
+   "tiempo_medio_dias": 71.0,
+   "pct_citas_mas_60_dias": 44.4
+  },
+  "CANARIAS": {
+   "tasa_por_1000_hab": 65.25,
+   "tiempo_medio_dias": 162.0,
+   "pct_citas_mas_60_dias": 89.9
+  },
+  "CANTABRIA": {
+   "tasa_por_1000_hab": 64.2,
+   "tiempo_medio_dias": 61.0,
+   "pct_citas_mas_60_dias": 42.7
+  },
+  "CASTILLA Y LEON": {
+   "tasa_por_1000_hab": 78.93,
+   "tiempo_medio_dias": 102.0,
+   "pct_citas_mas_60_dias": 55.2
+  },
+  "CASTILLA-LA MANCHA": {
+   "tasa_por_1000_hab": 26.29,
+   "tiempo_medio_dias": 64.0,
+   "pct_citas_mas_60_dias": 65.6
+  },
+  "CATALUÑA": {
+   "tasa_por_1000_hab": 64.0,
+   "tiempo_medio_dias": 120.0,
+   "pct_citas_mas_60_dias": 72.3
+  },
+  "COMUNIDAD VALENCIANA": {
+   "tasa_por_1000_hab": 83.35,
+   "tiempo_medio_dias": 95.0,
+   "pct_citas_mas_60_dias": 53.7
+  },
+  "EXTREMADURA": {
+   "tasa_por_1000_hab": 90.46,
+   "tiempo_medio_dias": 112.0,
+   "pct_citas_mas_60_dias": 53.0
+  },
+  "GALICIA": {
+   "tasa_por_1000_hab": 77.94,
+   "tiempo_medio_dias": 63.0,
+   "pct_citas_mas_60_dias": 41.3
+  },
+  "MADRID": {
+   "tasa_por_1000_hab": 134.69,
+   "tiempo_medio_dias": 68.0,
+   "pct_citas_mas_60_dias": 63.5
+  },
+  "MURCIA": {
+   "tasa_por_1000_hab": 70.53,
+   "tiempo_medio_dias": 89.0,
+   "pct_citas_mas_60_dias": 81.9
+  },
+  "C. FORAL DE NAVARRA": {
+   "tasa_por_1000_hab": 90.58,
+   "tiempo_medio_dias": 152.0,
+   "pct_citas_mas_60_dias": 57.6
+  },
+  "PAÍS VASCO": {
+   "tasa_por_1000_hab": 33.96,
+   "tiempo_medio_dias": 49.0,
+   "pct_citas_mas_60_dias": 69.2
+  },
+  "RIOJA": {
+   "tasa_por_1000_hab": 25.81,
+   "tiempo_medio_dias": 32.0,
+   "pct_citas_mas_60_dias": 53.0
+  },
+  "CEUTA": {
+   "tasa_por_1000_hab": 57.04,
+   "tiempo_medio_dias": 72.0,
+   "pct_citas_mas_60_dias": 84.5
+  },
+  "MELILLA": {
+   "tasa_por_1000_hab": 13.26,
+   "tiempo_medio_dias": 16.0,
+   "pct_citas_mas_60_dias": 12.0
+  }
+ }
+}

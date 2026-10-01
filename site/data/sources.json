@@ -1,0 +1,48 @@
+{
+ "meta": {
+  "source": "este fichero",
+  "period": "-",
+  "url": "-"
+ },
+ "fuentes": [
+  {
+   "nombre": "SISLE-SNS — página oficial (indicadores resumen + datos por CCAA)",
+   "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/listaEspera.htm",
+   "formato": "PDF (no existe XLS/CSV oficial de la serie)",
+   "periodicidad": "semestral (cortes 31-dic y 30-jun, RD 605/2003)",
+   "uso": "serie estatal"
+  },
+  {
+   "nombre": "RD 605/2003 — criterios homogéneos de listas de espera",
+   "url": "http://www.boe.es/boe/dias/2003/06/05/pdfs/A21830-21840.pdf",
+   "uso": "definición oficial de métricas"
+  },
+  {
+   "nombre": "RD 1039/2011 — tiempo máximo de acceso a prestaciones",
+   "url": "http://www.boe.es/boe/dias/2011/08/29/pdfs/BOE-A-2011-14190.pdf",
+   "uso": "referencia normativa"
+  },
+  {
+   "nombre": "Nota aclaratoria rectificación dic2025 (datos CLM)",
+   "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/docs/Nota_Aclaratoria_Rectificacion_Dic_2025.pdf",
+   "uso": "evidencia de rectificación posterior a la publicación"
+  },
+  {
+   "nombre": "INE — Censo anual de población, tabla jaxiT3 67988 (CCAA y provincia)",
+   "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=67988",
+   "formato": "CSV",
+   "uso": "denominador del dato DERIVADO pacientes/1.000 hab"
+  }
+ ],
+ "ficheros_raw": [
+  "LISTAS_PUBLICACION_Dic_2025_rectificado.pdf",
+  "LISTAS_PUBLICACION_jun25.pdf",
+  "LISTAS_PUBLICACION_dic2024.pdf",
+  "LISTAS_PUBLICACION_jun2024.pdf",
+  "LISTAS_PUBLICACION_dic2023.pdf",
+  "LISTAS_PUBLICACION_jun2023.pdf",
+  "LISTAS_PUBLICACION_dic_2022.pdf",
+  "LISTAS_PUBLICACION_jun2022.pdf",
+  "Nota_Aclaratoria_Rectificacion_Dic_2025.pdf"
+ ]
+}

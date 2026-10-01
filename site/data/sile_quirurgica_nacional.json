@@ -1,0 +1,915 @@
+{
+ "meta": {
+  "source": "Ministerio de Sanidad — SISLE-SNS, informes semestrales (RD 605/2003)",
+  "period": "jun2022 – dic2025 (8 semestres)",
+  "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/listaEspera.htm",
+  "unit": "pacientes; días; %",
+  "provisional": false,
+  "nota": "dic2025 es la versión RECTIFICADA (CLM) de 24-09-2026"
+ },
+ "serie": [
+  {
+   "periodo": "dic2025",
+   "fecha_corte": "2025-12-31",
+   "pacientes_en_espera": 853740.0,
+   "tasa_por_1000_hab": 17.7,
+   "pct_mas_6_meses": 21.6,
+   "tiempo_medio_dias": 122.0,
+   "suma_check_especialidades": 853740,
+   "n_especialidades": 14,
+   "n_ccaa": 19
+  },
+  {
+   "periodo": "jun2025",
+   "fecha_corte": "2025-06-30",
+   "pacientes_en_espera": 832728.0,
+   "tasa_por_1000_hab": 17.35,
+   "pct_mas_6_meses": 19.6,
+   "tiempo_medio_dias": 118.6,
+   "suma_check_especialidades": 832728,
+   "n_especialidades": 14,
+   "n_ccaa": 19
+  },
+  {
+   "periodo": "dic2024",
+   "fecha_corte": "2024-12-31",
+   "pacientes_en_espera": 846583.0,
+   "tasa_por_1000_hab": 17.8,
+   "pct_mas_6_meses": 22.9,
+   "tiempo_medio_dias": 126.0,
+   "suma_check_especialidades": 846583,
+   "n_especialidades": 14,
+   "n_ccaa": 19
+  },
+  {
+   "periodo": "jun2024",
+   "fecha_corte": "2024-06-30",
+   "pacientes_en_espera": 848340.0,
+   "tasa_por_1000_hab": 17.93,
+   "pct_mas_6_meses": 20.5,
+   "tiempo_medio_dias": 121.0,
+   "suma_check_especialidades": 848340,
+   "n_especialidades": 14,
+   "n_ccaa": 19
+  },
+  {
+   "periodo": "dic2023",
+   "fecha_corte": "2023-12-31",
+   "pacientes_en_espera": 849535.0,
+   "tasa_por_1000_hab": 18.11,
+   "pct_mas_6_meses": 24.3,
+   "tiempo_medio_dias": 128.0,
+   "suma_check_especialidades": 849535,
+   "n_especialidades": 14,
+   "n_ccaa": 19
+  },
+  {
+   "periodo": "jun2023",
+   "fecha_corte": "2023-06-30",
+   "pacientes_en_espera": 819964.0,
+   "tasa_por_1000_hab": 17.55,
+   "pct_mas_6_meses": 17.4,
+   "tiempo_medio_dias": 112.0,
+   "suma_check_especialidades": 819964,
+   "n_especialidades": 14,
+   "n_ccaa": 19
+  },
+  {
+   "periodo": "dic2022",
+   "fecha_corte": "2022-12-31",
+   "pacientes_en_espera": 793521.0,
+   "tasa_por_1000_hab": 17.1,
+   "pct_mas_6_meses": 20.8,
+   "tiempo_medio_dias": 120.0,
+   "suma_check_especialidades": 793521,
+   "n_especialidades": 14,
+   "n_ccaa": 19
+  },
+  {
+   "periodo": "jun2022",
+   "fecha_corte": "2022-06-30",
+   "pacientes_en_espera": 742518.0,
+   "tasa_por_1000_hab": 16.09,
+   "pct_mas_6_meses": 17.6,
+   "tiempo_medio_dias": 113.0,
+   "suma_check_especialidades": 742518,
+   "n_especialidades": 14,
+   "n_ccaa": 19
+  }
+ ],
+ "por_especialidad": {
+  "Cirugía General y de Digestivo": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 149836.0,
+    "tasa_por_1000_hab": 3.11,
+    "pct_mas_6_meses": 20.8,
+    "tiempo_medio_dias": 113.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 140289.0,
+    "tasa_por_1000_hab": 2.92,
+    "pct_mas_6_meses": 20.1,
+    "tiempo_medio_dias": 115.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 151713.0,
+    "tasa_por_1000_hab": 3.19,
+    "pct_mas_6_meses": 22.2,
+    "tiempo_medio_dias": 119.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 149550.0,
+    "tasa_por_1000_hab": 3.16,
+    "pct_mas_6_meses": 20.4,
+    "tiempo_medio_dias": 118.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 156254.0,
+    "tasa_por_1000_hab": 3.33,
+    "pct_mas_6_meses": 24.4,
+    "tiempo_medio_dias": 125.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 146192.0,
+    "tasa_por_1000_hab": 3.13,
+    "pct_mas_6_meses": 17.6,
+    "tiempo_medio_dias": 108.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 145149.0,
+    "tasa_por_1000_hab": 3.13,
+    "pct_mas_6_meses": 19.9,
+    "tiempo_medio_dias": 114.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 134195.0,
+    "tasa_por_1000_hab": 2.91,
+    "pct_mas_6_meses": 17.4,
+    "tiempo_medio_dias": 111.0
+   }
+  ],
+  "Ginecología": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 33002.0,
+    "tasa_por_1000_hab": 0.68,
+    "pct_mas_6_meses": 17.7,
+    "tiempo_medio_dias": 104.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 30509.0,
+    "tasa_por_1000_hab": 0.64,
+    "pct_mas_6_meses": 14.5,
+    "tiempo_medio_dias": 96.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 32348.0,
+    "tasa_por_1000_hab": 0.68,
+    "pct_mas_6_meses": 19.3,
+    "tiempo_medio_dias": 107.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 31726.0,
+    "tasa_por_1000_hab": 0.67,
+    "pct_mas_6_meses": 14.2,
+    "tiempo_medio_dias": 93.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 32935.0,
+    "tasa_por_1000_hab": 0.7,
+    "pct_mas_6_meses": 19.6,
+    "tiempo_medio_dias": 108.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 32896.0,
+    "tasa_por_1000_hab": 0.7,
+    "pct_mas_6_meses": 13.2,
+    "tiempo_medio_dias": 92.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 32934.0,
+    "tasa_por_1000_hab": 0.71,
+    "pct_mas_6_meses": 17.7,
+    "tiempo_medio_dias": 105.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 31969.0,
+    "tasa_por_1000_hab": 0.69,
+    "pct_mas_6_meses": 15.2,
+    "tiempo_medio_dias": 97.0
+   }
+  ],
+  "Oftalmología": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 173079.0,
+    "tasa_por_1000_hab": 3.59,
+    "pct_mas_6_meses": 8.0,
+    "tiempo_medio_dias": 80.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 170096.0,
+    "tasa_por_1000_hab": 3.54,
+    "pct_mas_6_meses": 7.3,
+    "tiempo_medio_dias": 75.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 169447.0,
+    "tasa_por_1000_hab": 3.56,
+    "pct_mas_6_meses": 10.2,
+    "tiempo_medio_dias": 83.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 177104.0,
+    "tasa_por_1000_hab": 3.74,
+    "pct_mas_6_meses": 10.2,
+    "tiempo_medio_dias": 84.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 177844.0,
+    "tasa_por_1000_hab": 3.79,
+    "pct_mas_6_meses": 12.8,
+    "tiempo_medio_dias": 90.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 176269.0,
+    "tasa_por_1000_hab": 3.77,
+    "pct_mas_6_meses": 7.8,
+    "tiempo_medio_dias": 78.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 172093.0,
+    "tasa_por_1000_hab": 3.71,
+    "pct_mas_6_meses": 9.3,
+    "tiempo_medio_dias": 83.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 159218.0,
+    "tasa_por_1000_hab": 3.45,
+    "pct_mas_6_meses": 7.5,
+    "tiempo_medio_dias": 76.0
+   }
+  ],
+  "ORL": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 72030.0,
+    "tasa_por_1000_hab": 1.49,
+    "pct_mas_6_meses": 29.9,
+    "tiempo_medio_dias": 142.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 72148.0,
+    "tasa_por_1000_hab": 1.5,
+    "pct_mas_6_meses": 26.0,
+    "tiempo_medio_dias": 133.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 69445.0,
+    "tasa_por_1000_hab": 1.46,
+    "pct_mas_6_meses": 28.1,
+    "tiempo_medio_dias": 134.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 66349.0,
+    "tasa_por_1000_hab": 1.4,
+    "pct_mas_6_meses": 21.9,
+    "tiempo_medio_dias": 121.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 61537.0,
+    "tasa_por_1000_hab": 1.31,
+    "pct_mas_6_meses": 27.0,
+    "tiempo_medio_dias": 131.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 60747.0,
+    "tasa_por_1000_hab": 1.3,
+    "pct_mas_6_meses": 18.4,
+    "tiempo_medio_dias": 113.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 52888.0,
+    "tasa_por_1000_hab": 1.14,
+    "pct_mas_6_meses": 20.7,
+    "tiempo_medio_dias": 121.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 44547.0,
+    "tasa_por_1000_hab": 0.97,
+    "pct_mas_6_meses": 17.1,
+    "tiempo_medio_dias": 107.0
+   }
+  ],
+  "Traumatología": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 200604.0,
+    "tasa_por_1000_hab": 4.16,
+    "pct_mas_6_meses": 27.4,
+    "tiempo_medio_dias": 137.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 202144.0,
+    "tasa_por_1000_hab": 4.21,
+    "pct_mas_6_meses": 23.2,
+    "tiempo_medio_dias": 130.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 204140.0,
+    "tasa_por_1000_hab": 4.29,
+    "pct_mas_6_meses": 28.1,
+    "tiempo_medio_dias": 141.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 208579.0,
+    "tasa_por_1000_hab": 4.41,
+    "pct_mas_6_meses": 25.4,
+    "tiempo_medio_dias": 139.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 206375.0,
+    "tasa_por_1000_hab": 4.4,
+    "pct_mas_6_meses": 31.1,
+    "tiempo_medio_dias": 149.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 198888.0,
+    "tasa_por_1000_hab": 4.26,
+    "pct_mas_6_meses": 23.0,
+    "tiempo_medio_dias": 133.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 190990.0,
+    "tasa_por_1000_hab": 4.11,
+    "pct_mas_6_meses": 29.2,
+    "tiempo_medio_dias": 143.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 187404.0,
+    "tasa_por_1000_hab": 4.06,
+    "pct_mas_6_meses": 23.2,
+    "tiempo_medio_dias": 134.0
+   }
+  ],
+  "Urología": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 75088.0,
+    "tasa_por_1000_hab": 1.56,
+    "pct_mas_6_meses": 23.6,
+    "tiempo_medio_dias": 122.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 72604.0,
+    "tasa_por_1000_hab": 1.51,
+    "pct_mas_6_meses": 22.5,
+    "tiempo_medio_dias": 124.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 74695.0,
+    "tasa_por_1000_hab": 1.57,
+    "pct_mas_6_meses": 26.2,
+    "tiempo_medio_dias": 134.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 75166.0,
+    "tasa_por_1000_hab": 1.59,
+    "pct_mas_6_meses": 24.2,
+    "tiempo_medio_dias": 129.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 73265.0,
+    "tasa_por_1000_hab": 1.56,
+    "pct_mas_6_meses": 25.4,
+    "tiempo_medio_dias": 127.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 69290.0,
+    "tasa_por_1000_hab": 1.48,
+    "pct_mas_6_meses": 18.5,
+    "tiempo_medio_dias": 110.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 66304.0,
+    "tasa_por_1000_hab": 1.43,
+    "pct_mas_6_meses": 22.3,
+    "tiempo_medio_dias": 122.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 60363.0,
+    "tasa_por_1000_hab": 1.31,
+    "pct_mas_6_meses": 18.5,
+    "tiempo_medio_dias": 113.0
+   }
+  ],
+  "Cirugía Cardiaca": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 3524.0,
+    "tasa_por_1000_hab": 0.07,
+    "pct_mas_6_meses": 9.8,
+    "tiempo_medio_dias": 77.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 3234.0,
+    "tasa_por_1000_hab": 0.07,
+    "pct_mas_6_meses": 3.7,
+    "tiempo_medio_dias": 57.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 3286.0,
+    "tasa_por_1000_hab": 0.07,
+    "pct_mas_6_meses": 5.9,
+    "tiempo_medio_dias": 67.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 3034.0,
+    "tasa_por_1000_hab": 0.06,
+    "pct_mas_6_meses": 6.8,
+    "tiempo_medio_dias": 63.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 3260.0,
+    "tasa_por_1000_hab": 0.07,
+    "pct_mas_6_meses": 10.2,
+    "tiempo_medio_dias": 73.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 3389.0,
+    "tasa_por_1000_hab": 0.07,
+    "pct_mas_6_meses": 2.7,
+    "tiempo_medio_dias": 58.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 3642.0,
+    "tasa_por_1000_hab": 0.08,
+    "pct_mas_6_meses": 9.6,
+    "tiempo_medio_dias": 79.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 3304.0,
+    "tasa_por_1000_hab": 0.07,
+    "pct_mas_6_meses": 9.3,
+    "tiempo_medio_dias": 75.0
+   }
+  ],
+  "Angiología /Cir. Vascular": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 23849.0,
+    "tasa_por_1000_hab": 0.49,
+    "pct_mas_6_meses": 26.5,
+    "tiempo_medio_dias": 152.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 25189.0,
+    "tasa_por_1000_hab": 0.52,
+    "pct_mas_6_meses": 27.4,
+    "tiempo_medio_dias": 160.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 25167.0,
+    "tasa_por_1000_hab": 0.53,
+    "pct_mas_6_meses": 28.6,
+    "tiempo_medio_dias": 160.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 24778.0,
+    "tasa_por_1000_hab": 0.52,
+    "pct_mas_6_meses": 26.3,
+    "tiempo_medio_dias": 148.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 24027.0,
+    "tasa_por_1000_hab": 0.51,
+    "pct_mas_6_meses": 28.6,
+    "tiempo_medio_dias": 142.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 22202.0,
+    "tasa_por_1000_hab": 0.48,
+    "pct_mas_6_meses": 20.6,
+    "tiempo_medio_dias": 121.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 21543.0,
+    "tasa_por_1000_hab": 0.46,
+    "pct_mas_6_meses": 21.1,
+    "tiempo_medio_dias": 121.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 20002.0,
+    "tasa_por_1000_hab": 0.43,
+    "pct_mas_6_meses": 21.1,
+    "tiempo_medio_dias": 125.0
+   }
+  ],
+  "Cirugía Maxilofacial": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 34241.0,
+    "tasa_por_1000_hab": 0.71,
+    "pct_mas_6_meses": 30.1,
+    "tiempo_medio_dias": 140.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 33333.0,
+    "tasa_por_1000_hab": 0.69,
+    "pct_mas_6_meses": 24.2,
+    "tiempo_medio_dias": 132.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 30107.0,
+    "tasa_por_1000_hab": 0.63,
+    "pct_mas_6_meses": 28.1,
+    "tiempo_medio_dias": 135.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 29550.0,
+    "tasa_por_1000_hab": 0.62,
+    "pct_mas_6_meses": 23.9,
+    "tiempo_medio_dias": 125.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 28076.0,
+    "tasa_por_1000_hab": 0.6,
+    "pct_mas_6_meses": 27.9,
+    "tiempo_medio_dias": 132.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 27944.0,
+    "tasa_por_1000_hab": 0.6,
+    "pct_mas_6_meses": 15.8,
+    "tiempo_medio_dias": 110.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 25874.0,
+    "tasa_por_1000_hab": 0.56,
+    "pct_mas_6_meses": 22.5,
+    "tiempo_medio_dias": 127.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 25148.0,
+    "tasa_por_1000_hab": 0.55,
+    "pct_mas_6_meses": 20.8,
+    "tiempo_medio_dias": 128.0
+   }
+  ],
+  "Cirugía Pediátrica": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 17072.0,
+    "tasa_por_1000_hab": 0.35,
+    "pct_mas_6_meses": 21.8,
+    "tiempo_medio_dias": 118.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 16800.0,
+    "tasa_por_1000_hab": 0.35,
+    "pct_mas_6_meses": 19.3,
+    "tiempo_medio_dias": 114.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 18265.0,
+    "tasa_por_1000_hab": 0.38,
+    "pct_mas_6_meses": 23.5,
+    "tiempo_medio_dias": 123.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 17997.0,
+    "tasa_por_1000_hab": 0.38,
+    "pct_mas_6_meses": 17.9,
+    "tiempo_medio_dias": 110.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 19209.0,
+    "tasa_por_1000_hab": 0.41,
+    "pct_mas_6_meses": 22.0,
+    "tiempo_medio_dias": 117.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 18470.0,
+    "tasa_por_1000_hab": 0.4,
+    "pct_mas_6_meses": 15.9,
+    "tiempo_medio_dias": 104.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 18929.0,
+    "tasa_por_1000_hab": 0.41,
+    "pct_mas_6_meses": 20.4,
+    "tiempo_medio_dias": 116.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 17842.0,
+    "tasa_por_1000_hab": 0.39,
+    "pct_mas_6_meses": 18.7,
+    "tiempo_medio_dias": 107.0
+   }
+  ],
+  "Cirugía Plástica": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 26363.0,
+    "tasa_por_1000_hab": 0.55,
+    "pct_mas_6_meses": 40.8,
+    "tiempo_medio_dias": 269.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 26574.0,
+    "tasa_por_1000_hab": 0.55,
+    "pct_mas_6_meses": 38.7,
+    "tiempo_medio_dias": 259.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 26480.0,
+    "tasa_por_1000_hab": 0.56,
+    "pct_mas_6_meses": 41.9,
+    "tiempo_medio_dias": 258.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 26486.0,
+    "tasa_por_1000_hab": 0.56,
+    "pct_mas_6_meses": 37.2,
+    "tiempo_medio_dias": 236.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 26688.0,
+    "tasa_por_1000_hab": 0.57,
+    "pct_mas_6_meses": 40.8,
+    "tiempo_medio_dias": 239.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 25853.0,
+    "tasa_por_1000_hab": 0.55,
+    "pct_mas_6_meses": 35.7,
+    "tiempo_medio_dias": 225.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 25159.0,
+    "tasa_por_1000_hab": 0.54,
+    "pct_mas_6_meses": 39.4,
+    "tiempo_medio_dias": 239.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 23632.0,
+    "tasa_por_1000_hab": 0.51,
+    "pct_mas_6_meses": 34.2,
+    "tiempo_medio_dias": 226.0
+   }
+  ],
+  "Cirugía Torácica": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 3069.0,
+    "tasa_por_1000_hab": 0.06,
+    "pct_mas_6_meses": 21.0,
+    "tiempo_medio_dias": 135.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 2918.0,
+    "tasa_por_1000_hab": 0.06,
+    "pct_mas_6_meses": 19.4,
+    "tiempo_medio_dias": 121.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 2857.0,
+    "tasa_por_1000_hab": 0.06,
+    "pct_mas_6_meses": 19.6,
+    "tiempo_medio_dias": 124.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 2699.0,
+    "tasa_por_1000_hab": 0.06,
+    "pct_mas_6_meses": 15.8,
+    "tiempo_medio_dias": 98.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 2450.0,
+    "tasa_por_1000_hab": 0.05,
+    "pct_mas_6_meses": 18.9,
+    "tiempo_medio_dias": 107.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 2642.0,
+    "tasa_por_1000_hab": 0.06,
+    "pct_mas_6_meses": 13.7,
+    "tiempo_medio_dias": 87.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 2418.0,
+    "tasa_por_1000_hab": 0.05,
+    "pct_mas_6_meses": 15.4,
+    "tiempo_medio_dias": 101.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 2355.0,
+    "tasa_por_1000_hab": 0.05,
+    "pct_mas_6_meses": 14.6,
+    "tiempo_medio_dias": 94.0
+   }
+  ],
+  "Neurocirugía": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 17487.0,
+    "tasa_por_1000_hab": 0.36,
+    "pct_mas_6_meses": 37.3,
+    "tiempo_medio_dias": 172.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 17321.0,
+    "tasa_por_1000_hab": 0.36,
+    "pct_mas_6_meses": 35.1,
+    "tiempo_medio_dias": 173.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 17277.0,
+    "tasa_por_1000_hab": 0.36,
+    "pct_mas_6_meses": 39.0,
+    "tiempo_medio_dias": 191.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 17554.0,
+    "tasa_por_1000_hab": 0.37,
+    "pct_mas_6_meses": 37.0,
+    "tiempo_medio_dias": 189.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 16857.0,
+    "tasa_por_1000_hab": 0.36,
+    "pct_mas_6_meses": 42.4,
+    "tiempo_medio_dias": 213.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 16539.0,
+    "tasa_por_1000_hab": 0.35,
+    "pct_mas_6_meses": 35.9,
+    "tiempo_medio_dias": 192.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 15789.0,
+    "tasa_por_1000_hab": 0.34,
+    "pct_mas_6_meses": 38.4,
+    "tiempo_medio_dias": 192.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 15491.0,
+    "tasa_por_1000_hab": 0.34,
+    "pct_mas_6_meses": 36.8,
+    "tiempo_medio_dias": 193.0
+   }
+  ],
+  "Dermatología": [
+   {
+    "periodo": "dic2025",
+    "pacientes_en_espera": 24496.0,
+    "tasa_por_1000_hab": 0.51,
+    "pct_mas_6_meses": 4.7,
+    "tiempo_medio_dias": 64.0
+   },
+   {
+    "periodo": "jun2025",
+    "pacientes_en_espera": 19569.0,
+    "tasa_por_1000_hab": 0.41,
+    "pct_mas_6_meses": 7.4,
+    "tiempo_medio_dias": 69.0
+   },
+   {
+    "periodo": "dic2024",
+    "pacientes_en_espera": 21356.0,
+    "tasa_por_1000_hab": 0.45,
+    "pct_mas_6_meses": 8.2,
+    "tiempo_medio_dias": 72.0
+   },
+   {
+    "periodo": "jun2024",
+    "pacientes_en_espera": 17768.0,
+    "tasa_por_1000_hab": 0.38,
+    "pct_mas_6_meses": 6.5,
+    "tiempo_medio_dias": 65.0
+   },
+   {
+    "periodo": "dic2023",
+    "pacientes_en_espera": 20758.0,
+    "tasa_por_1000_hab": 0.44,
+    "pct_mas_6_meses": 9.6,
+    "tiempo_medio_dias": 75.0
+   },
+   {
+    "periodo": "jun2023",
+    "pacientes_en_espera": 18643.0,
+    "tasa_por_1000_hab": 0.4,
+    "pct_mas_6_meses": 7.5,
+    "tiempo_medio_dias": 66.0
+   },
+   {
+    "periodo": "dic2022",
+    "pacientes_en_espera": 19809.0,
+    "tasa_por_1000_hab": 0.43,
+    "pct_mas_6_meses": 9.2,
+    "tiempo_medio_dias": 75.0
+   },
+   {
+    "periodo": "jun2022",
+    "pacientes_en_espera": 17048.0,
+    "tasa_por_1000_hab": 0.37,
+    "pct_mas_6_meses": 4.4,
+    "tiempo_medio_dias": 63.0
+   }
+  ]
+ },
+ "descartes": []
+}

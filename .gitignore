@@ -1,2 +1,5 @@
 __pycache__/
 .DS_Store
+
+# PDF semestrales del Ministerio y CSV del INE (12 MB): los repone `python3 scripts/sile_fetch.py`.
+raw/
