@@ -9,68 +9,90 @@
 <meta property="og:description" content="853.740 pacientes en espera quirúrgica y 122 días de media. Con un aviso importante: las comunidades no miden igual.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%231f6f6a%27/%3E%3C/svg%3E">
 <style>
-  :root { --bg:#f4f6f5; --paper:#fff; --ink:#181d1c; --ink-2:#57605e; --line:#d6ddda; --accent:#1f6f6a;
-          --bar:#7fb3ae; --bar-hi:#1f6f6a; --warn:#b3382f; color-scheme: light; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#111514; --paper:#181d1c; --ink:#ecf0ef; --ink-2:#9faba8; --line:#2a3230; --accent:#64c2bb; --bar:#2f5c58; --bar-hi:#64c2bb; --warn:#e0645a; color-scheme: dark; } }
+  :root { --bg:#f3f6f5; --paper:#fff; --ink:#181d1c; --ink-2:#57605e; --line:#d6ddda; --accent:#1f6f6a; --accent-ink:#17524e;
+          --warn:#b3382f; --hero:#e4f2f0;
+          --t1:#1f6f6a; --t2:#64c2bb; --t3:#2b7fd1; --t4:#8b5cf6; --t5:#e38b1e; --t6:#d9488a; --t7:#8a9694;
+          --on-bar:#fff; --r:12px; color-scheme: light; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1413; --paper:#161d1c; --ink:#e9f0ef; --ink-2:#9faba8; --line:#26302e; --accent:#64c2bb; --accent-ink:#9ee0da;
+          --warn:#e0645a; --hero:#12211f;
+          --t1:#64c2bb; --t2:#a4dad5; --t3:#5fa3ea; --t4:#a78bfa; --t5:#f0a548; --t6:#ef7fb0; --t7:#6f7f7d; --on-bar:#0f1413; color-scheme: dark; } }
   * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
   body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
   .wrap { max-width:1100px; margin:0 auto; padding:24px 20px 60px; }
-  h1 { font-size:clamp(1.9rem,4vw,3rem); line-height:1.08; margin:10px 0; letter-spacing:-.02em; }
-  h2 { font-size:1.35rem; margin:38px 0 6px; }
-  .lede { color:var(--ink-2); max-width:66ch; font-size:1.05rem; }
-  .eyebrow { font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; color:var(--accent); font-weight:700; margin:0; }
-  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; margin:26px 0 10px; }
-  .kpi { background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:16px; }
-  .kpi b { display:block; font-size:1.9rem; font-weight:800; line-height:1.1; font-variant-numeric:tabular-nums; }
+  h1 { font-size:clamp(2.2rem,5vw,3.6rem); line-height:1.02; margin:8px 0 14px; letter-spacing:-.03em; font-weight:800; }
+  h2 { font-size:1.45rem; margin:46px 0 8px; letter-spacing:-.015em; padding-left:14px; border-left:4px solid var(--sec,var(--accent)); line-height:1.2; }
+  .lede { color:var(--ink-2); max-width:62ch; font-size:1.08rem; margin:0; }
+  .eyebrow { font-size:.76rem; text-transform:uppercase; letter-spacing:.09em; color:var(--accent-ink); font-weight:700; margin:0; }
+  .hero { display:grid; grid-template-columns:1.25fr .9fr; gap:28px; align-items:center; background:linear-gradient(135deg,var(--hero),var(--paper) 70%); border:1px solid var(--line); border-radius:var(--r); padding:30px 32px; margin-bottom:8px; }
+  .hero-num { text-align:right; }
+  .hero-num b { display:block; font-size:clamp(3rem,7vw,5.2rem); font-weight:900; letter-spacing:-.04em; line-height:.95; color:var(--accent); font-variant-numeric:tabular-nums; }
+  .hero-num span { color:var(--ink-2); font-size:1rem; display:block; }
+  .hero-num .anio { display:flex; gap:8px; align-items:center; margin-top:14px; justify-content:flex-end; }
+  @media (max-width:760px) { .hero-num .anio { justify-content:flex-start; } }
+  @media (max-width:760px) { .hero { grid-template-columns:1fr; } .hero-num { text-align:left; } }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; margin:22px 0 10px; }
+  .kpi { background:var(--paper); border:1px solid var(--line); border-top:4px solid var(--sec,var(--accent)); border-radius:var(--r); padding:16px; }
+  .kpi b { display:block; font-size:1.95rem; font-weight:800; line-height:1.1; font-variant-numeric:tabular-nums; letter-spacing:-.02em; color:var(--sec,var(--accent)); }
   .kpi span { color:var(--ink-2); font-size:.9rem; }
-  .card { background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:16px; overflow-x:auto; margin-top:12px; }
-  .aviso { border-left:3px solid var(--accent); padding:12px 16px; background:var(--paper); border-radius:0 8px 8px 0; margin:18px 0; }
-  .aviso.warn { border-left-color:var(--warn); }
+  .sec-verde { --sec:var(--t1); } .sec-azul { --sec:var(--t3); } .sec-violeta { --sec:var(--t4); } .sec-naranja { --sec:var(--t5); } .sec-rojo { --sec:var(--warn); }
+  .card { background:var(--paper); border:1px solid var(--line); border-radius:var(--r); padding:18px; overflow-x:auto; margin-top:12px; }
+  .aviso { border-left:4px solid var(--accent); padding:12px 16px; background:var(--paper); border-radius:0 var(--r) var(--r) 0; margin:18px 0; }
+  .aviso.warn { border-left-color:var(--warn); background:color-mix(in srgb, var(--warn) 7%, var(--paper)); }
   .aviso p:last-child { margin-bottom:0; }
   .nota { font-size:.87rem; color:var(--ink-2); margin-top:10px; }
-  a { color:var(--accent); }
-  select { font:inherit; padding:7px 10px; border-radius:8px; border:1px solid var(--line); background:var(--paper); color:var(--ink); }
+  a { color:var(--accent-ink); }
+  select { font:inherit; padding:7px 12px; border-radius:999px; border:1px solid var(--line); background:var(--paper); color:var(--ink); font-weight:600; }
   svg { width:100%; height:auto; display:block; }
+  .leyenda { display:flex; flex-wrap:wrap; gap:14px 18px; font-size:.85rem; color:var(--ink-2); margin-top:10px; }
+  .leyenda i { display:inline-block; width:12px; height:12px; border-radius:3px; vertical-align:-1px; margin-right:6px; }
   table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; font-size:.92rem; }
-  th,td { padding:8px 10px; border-bottom:1px solid var(--line); text-align:left; }
+  th,td { padding:9px 10px; border-bottom:1px solid var(--line); text-align:left; }
+  tbody tr:hover td { background:color-mix(in srgb, var(--accent) 6%, transparent); }
   td.r, th.r { text-align:right; }
-  th { font-size:.73rem; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-2); cursor:pointer; user-select:none; }
+  th { font-size:.72rem; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-2); cursor:pointer; user-select:none; }
   .bar { position:relative; }
-  .bar i { position:absolute; inset:0 auto 0 0; background:var(--bar); opacity:.3; border-radius:3px; }
+  .bar i { position:absolute; inset:0 auto 0 0; background:var(--accent); opacity:.18; border-radius:4px; }
   .bar span { position:relative; }
-  footer { margin-top:44px; border-top:1px solid var(--line); padding-top:16px; font-size:.87rem; color:var(--ink-2); }
+  .chip { display:inline-block; font-size:.74rem; font-weight:600; padding:2px 9px; border-radius:999px; color:var(--on-bar); white-space:nowrap; }
+  footer { margin-top:48px; border-top:1px solid var(--line); padding-top:18px; font-size:.87rem; color:var(--ink-2); }
   code { background:var(--bg); padding:1px 5px; border-radius:4px; font-size:.85em; }
+  @media (prefers-reduced-motion: no-preference) { .kpi, .card { transition:transform .15s ease; } }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <p class="eyebrow">Construido con IA · IAcademy</p>
-  <h1>En espera</h1>
-  <p class="lede">Cuánta gente espera una operación o una consulta del especialista en el <strong>Sistema Nacional de Salud</strong>, cuánto tarda de media y cómo ha evolucionado. Datos oficiales del Ministerio de Sanidad, ocho semestres seguidos.</p>
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Construido con IA · IAcademy</p>
+      <h1>En espera</h1>
+      <p class="lede">Cuánta gente espera una operación o una consulta del especialista en el <strong>Sistema Nacional de Salud</strong>, cuánto tarda de media y cómo ha evolucionado. Datos oficiales del Ministerio de Sanidad, ocho semestres seguidos.</p>
+    </div>
+    <div class="hero-num"><b id="hero-num"></b><span id="hero-sub"></span><div class="anio"><label for="periodo">Periodo</label><select id="periodo"></select></div></div>
+  </div>
 
   <div class="aviso warn">
     <p style="margin-top:0"><strong>Antes de mirar el ranking de comunidades, lee esto.</strong> Los datos los aporta cada comunidad autónoma y <strong>no todas miden igual</strong>: los criterios para entrar en lista, cuándo empieza a contar la espera y qué pacientes se incluyen varían. El propio Ministerio lo advierte en su publicación.</p>
     <p>Por eso esta página <strong>no presenta una clasificación de mejores y peores</strong>. Presenta lo que cada administración declara, con su definición, y deja constancia de los casos que no cuadran entre sí. Comparar dos comunidades es comparar dos formas de contar.</p>
   </div>
 
-  <p style="margin-top:22px">Periodo: <select id="periodo"></select></p>
 
   <div class="kpis" id="kpis"></div>
   <p class="nota" id="nota-kpis"></p>
 
-  <h2>La espera, semestre a semestre</h2>
+  <h2 class="sec-verde">La espera, semestre a semestre</h2>
   <div class="card"><svg id="g-serie" role="img" aria-label="Evolución de la lista de espera quirúrgica"></svg></div>
   <p class="nota" id="nota-serie"></p>
 
-  <h2>Por especialidad</h2>
+  <h2 class="sec-violeta">Por especialidad</h2>
   <div class="card"><table id="t-esp"></table></div>
   <p class="nota">Las catorce especialidades quirúrgicas que publica el Ministerio. Suman exactamente el total nacional en los ocho semestres, comprobado.</p>
 
-  <h2>Por comunidad autónoma</h2>
+  <h2 class="sec-azul">Por comunidad autónoma</h2>
   <div class="card"><svg id="g-ccaa" role="img" aria-label="Espera quirúrgica por comunidad"></svg></div>
   <p class="nota" id="nota-ccaa"></p>
 
-  <h2>Consultas externas</h2>
+  <h2 class="sec-naranja">Consultas externas</h2>
   <div class="kpis" id="kpis-consultas"></div>
   <p class="nota">Espera para la primera consulta del especialista. El Ministerio publica el tiempo medio nacional y por comunidad, pero no el número de pacientes en espera de consulta por comunidad: donde no hay dato, no se pone.</p>
 
@@ -91,7 +113,7 @@
 <script type="module">
 const N = (v, d = 0) => {
   const n = Number(v ?? 0);
-  if (!isFinite(n)) return '—';
+  if (!isFinite(n)) return '·';
   const [i, dec] = n.toFixed(d).split('.');
   const mil = i.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
   return dec ? `${mil},${dec}` : mil;
@@ -164,22 +186,24 @@ function lineas(el, series, { H = 300, fmt }) {
   });
 }
 
-function barras(el, filas, { etiqueta, valor, fmt, alto, marca = () => false }) {
-  const W = 640, m = { t: 12, r: 92, b: 10, l: 172 };
+function barras(el, filas, { etiqueta, valor, fmt, alto, marca = () => false, color = () => 'var(--t1)', rampa = false }) {
+  const W = 760, m = { t: 12, r: 200, b: 10, l: 172 };
   const n = filas.length, h = (alto - m.t - m.b) / n;
   const vals = filas.map(valor);
   const max = Math.max(...vals), min = Math.min(...vals);
   const span = max - min || 1;
-  // Rampa de intensidad proporcional al valor: sin ella las 19 barras eran del mismo color y el
-  // gráfico no dejaba ver de un vistazo quién espera más. Un solo tono, sin semáforo de colores,
+  // Rampa de intensidad proporcional al valor: un solo tono, sin semáforo de colores,
   // porque aquí el color codifica magnitud y no un juicio sobre si una comunidad lo hace bien.
-  const opacidad = (v) => (0.3 + 0.7 * (v - min) / span).toFixed(3);
+  const opacidad = (v) => (0.35 + 0.65 * (v - min) / span).toFixed(3);
   el.setAttribute('viewBox', `0 0 ${W} ${alto}`); el.innerHTML = '';
   filas.forEach((f, i) => {
     const yy = m.t + i * h, v = valor(f), w = (W - m.l - m.r) * v / max;
-    add(el, 'rect', { x: m.l, y: yy + 2, width: Math.max(w, 1), height: h - 6, rx: 3, fill: 'var(--bar-hi)', 'fill-opacity': opacidad(v) });
+    add(el, 'rect', { x: m.l, y: yy + 2, width: W - m.l - m.r, height: h - 6, rx: 4, fill: 'var(--line)', 'fill-opacity': .35 });
+    const attrs = { x: m.l, y: yy + 2, width: Math.max(w, 2), height: h - 6, rx: 4, fill: color(f) };
+    if (rampa) attrs['fill-opacity'] = opacidad(v);
+    add(el, 'rect', attrs);
     add(el, 'text', { x: m.l - 8, y: yy + h / 2 + 4, 'text-anchor': 'end', 'font-size': 12, fill: 'var(--ink)', 'font-weight': marca(f) ? 700 : 400 }, etiqueta(f).length > 24 ? etiqueta(f).slice(0, 23) + '…' : etiqueta(f));
-    add(el, 'text', { x: m.l + w + 6, y: yy + h / 2 + 4, 'font-size': 12, fill: 'var(--ink-2)' }, fmt(v));
+    add(el, 'text', { x: m.l + Math.max(w, 2) + 6, y: yy + h / 2 + 4, 'font-size': 12, fill: 'var(--ink-2)' }, fmt(v));
   });
 }
 
@@ -208,9 +232,9 @@ function tabla(el, cols, filas, orden = null) {
 
 // --- serie temporal: pacientes y días de espera, dos escalas
 lineas($('#g-serie'), [
-  { nombre: 'Pacientes en espera (miles)', color: 'var(--bar-hi)', grossor: 3, area: true,
+  { nombre: 'Pacientes en espera (miles)', color: 'var(--t1)', grossor: 3, area: true,
     fmt: (v) => N(v, 0) + ' mil', datos: serie.map((r, i) => [i, r.pacientes_en_espera / 1000]) },
-  { nombre: 'Días de espera media', color: 'var(--warn)', grossor: 2.5, dashes: '5 4',
+  { nombre: 'Días de espera media', color: 'var(--t5)', grossor: 2.5, dashes: '5 4',
     fmt: (v) => N(v, 0) + ' d', datos: serie.map((r, i) => [i, r.tiempo_medio_dias]) },
 ], {});
 {
@@ -220,6 +244,8 @@ lineas($('#g-serie'), [
 
 function pinta(p) {
   const r = serie.find((x) => x.periodo === p);
+  $('#hero-num').textContent = N(r.pacientes_en_espera);
+  $('#hero-sub').textContent = `pacientes en espera quirúrgica · ${rotulo(p)}`;
   $('#kpis').innerHTML = [
     [N(r.pacientes_en_espera), 'pacientes en espera quirúrgica'],
     [N(r.tiempo_medio_dias) + ' días', 'de espera media'],
@@ -228,9 +254,12 @@ function pinta(p) {
   ].map(([b, s]) => `<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join('');
   $('#nota-kpis').textContent = `${rotulo(p)}. La suma de las catorce especialidades y la de las diecinueve comunidades cuadran exactamente con este total, comprobado en los ocho semestres.`;
 
-  // especialidades
+  // especialidades: color categórico estable por especialidad (t1..t7)
+  const PAL = ['var(--t1)', 'var(--t3)', 'var(--t5)', 'var(--t4)', 'var(--t6)', 'var(--t2)', 'var(--t7)'];
+  const espColor = {};
+  Object.keys(NAC.por_especialidad).forEach((n, i) => { espColor[n] = PAL[i % PAL.length]; });
   tabla($('#t-esp'), [
-    { k: 'n', t: 'Especialidad', get: (e) => e.n, v: (e) => e.n },
+    { k: 'n', t: 'Especialidad', get: (e) => e.n, v: (e) => `<span class="chip" style="background:${espColor[e.n] || 'var(--t7)'}">${e.n}</span>` },
     { k: 'p', t: 'Pacientes', r: 1, bar: 1, get: (e) => e.p, v: (e) => N(e.p) },
     { k: 'd', t: 'Días de espera', r: 1, get: (e) => e.d, v: (e) => N(e.d) },
     { k: 's', t: '% más de 6 meses', r: 1, get: (e) => e.s, v: (e) => N(e.s, 1) + ' %' },
@@ -242,7 +271,7 @@ function pinta(p) {
   // comunidades
   const filas = Object.entries(CCA.ccaa).map(([n, v]) => ({ n, v: v.tiempo_medio_dias ?? 0, pac: v.pacientes_en_espera ?? 0, pct: v.pct_mas_6_meses ?? 0 }))
     .sort((a, b) => b.v - a.v);
-  barras($('#g-ccaa'), filas, { etiqueta: (f) => f.n, valor: (f) => f.v, fmt: (v) => N(v) + ' días', alto: filas.length * 30 + 24, marca: (f) => f.n === filas[0].n });
+  barras($('#g-ccaa'), filas, { etiqueta: (f) => f.n, valor: (f) => f.v, fmt: (v) => N(v) + ' días', alto: filas.length * 30 + 24, marca: (f) => f.n === filas[0].n, rampa: true });
   $('#nota-ccaa').textContent = `Días de espera media quirúrgica declarados por cada comunidad en ${rotulo(p)}. Recordatorio: los criterios de registro no son los mismos en todas, así que la distancia entre la primera y la última no se puede leer como una diferencia real en la atención.`;
 
   // consultas
